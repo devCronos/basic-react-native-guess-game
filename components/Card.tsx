@@ -1,5 +1,5 @@
 import React, { PropsWithChildren } from "react";
-import { StyleSheet, Text, View, StyleProp, ViewStyle } from "react-native";
+import { StyleSheet, View, ViewStyle } from "react-native";
 
 interface CardProps extends PropsWithChildren<{}> {
   style?: ViewStyle;
